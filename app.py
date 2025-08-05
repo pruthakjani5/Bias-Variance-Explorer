@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.linear_model import LinearRegression, Ridge
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import mean_squared_error
